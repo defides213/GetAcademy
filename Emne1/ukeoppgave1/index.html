@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Task 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttonhover.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks white" onclick="changecolor('white')">White</button>
+        <button class="tablinks darkred" onclick="changecolor('darkred')">Darkred</button>
+        <button class="tablinks aquamarine" onclick="changecolor('aquamarine')">Aquamarine</button>
+        <button class="tablinks black" onclick="changecolor('black')">Black</button>
+      </div>
+    <div class="column">
+        <div class="introduction-card">
+            <h1 class="h1-introduction">Litt om meg selv</h1>
+            <div class="text">
+                Morn <br><br>
+                Jeg heter Simon. <br>
+                Jeg Bor foreløpig i Oslo og har ikke noen planer om å flytte. <br><br> 
+                Mitt mål er å bli en Full-stack programør og en game dev. <br>
+
+            </div>
+    
+        </div>
+        <div><img src="img/everyday.jpg" class="image"></div>
+        <div class="hobbies-card">
+            <div class="hobbies-list" onclick="showHobbies()" ondblclick="closeHobbies()">Hobbies</div>
+            <div id="list-hobbies"></div>
+        </div>
+    </div>
+
+</body>
+</html>

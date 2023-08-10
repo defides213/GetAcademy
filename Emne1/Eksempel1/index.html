@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/java.js"></script>
+</head>
+
+<body>
+    <div>
+        <button onclick="noLayout()">Ingen layout</button>
+        <button onclick="verticalLayout()">Vertikal layout</button>
+        <button onclick="horizontalLayout()">Horisontal layout</button>
+        <button onclick="gridLayout()">Grid layout</button>
+    </div>
+    <h1>Eksempel 1</h1>
+
+    <div id="cards">
+        <div class="card">
+            <div class="header verktøy" onclick="showTools()">Verktøy</div>
+            <div id="cardTools"></div>
+        </div>
+    
+
+    <div class="card">
+        <div class="header html" onclick="showHtml()">HTML</div>
+        <div id="cardHtml"></div>
+    </div>
+
+    <div class="card">
+        <div class="header css" onclick="showCss()">CSS</div>
+        <div id="cardCss"></div>
+    </div>
+
+    <div class="card">
+        <div class="header js" onclick="showJavaScript()">JavaScript</div>
+        <div id="cardJavaScript"></div>
+    </div>
+    <div class="card">
+        <div class="header human" onclick="showGame()">Hode, kropp og ben</div>
+        <div id="cardGame" class="bodies"></div>
+    </div>
+    
+
+    </div>
+</body>
+
+</html>

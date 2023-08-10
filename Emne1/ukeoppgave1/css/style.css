@@ -1,0 +1,75 @@
+body {
+    font-family: Ubuntu;
+    margin-top: -11px;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: repeat(2, 310px);
+}
+
+.introduction-card {
+    width: 300px;
+    background-color: lightgray;
+    border: 1px solid rgb(46, 46, 46);
+    margin: 10px;
+}
+
+.hobbies-card {
+    width: 300px;
+    background-color: rgb(240, 250, 247);
+    border: 1px solid rgb(46, 46, 46);
+    margin-left: 10px;
+}
+
+.hobbies-list {
+    background-color: lightgray;
+    font-size: x-large;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.h1-introduction {
+    margin-left: 10px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.text {
+    margin-left: 5px;
+}
+
+.blocks {
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: column;
+    float: left;
+}
+
+.white {
+    background-color: white;
+    border: black 1px solid;
+}
+
+.darkred {
+    background-color: darkred;
+    border: black 1px solid;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+    border: black 1px solid;
+}
+
+.black {
+    background-color: black;
+    border: black 1px solid;
+}

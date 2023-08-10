@@ -1,0 +1,92 @@
+.tab button {
+    text-decoration: none;
+    background-color: inherit;
+    letter-spacing: 1px;
+    color: black;
+    outline: green;
+    padding: 15px 2px;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s;
+}
+
+.tab .white:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.2s;
+}
+.tab .white:hover:before {
+    width: 175%;
+}
+
+.tab .darkred:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: darkred;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.2s;
+}
+
+.tab .darkred:hover:before {
+    width: 175%;
+}
+
+.tab .aquamarine:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: aquamarine;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.2s;
+}
+
+.tab .aquamarine:hover:before {
+    width: 175%;
+}
+
+.tab .black:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: black;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.2s;
+    color: white;
+}
+
+.tab .black:hover:before {
+    width: 175%;
+}
+
+.tab {
+    margin-top: 10px;
+    margin-left: -10px;
+    float: left;
+    background-color: lightgray;
+    width: 5%;
+    height: 180px;
+}
+
