@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <script defer src="js/java.js"></script>
+</head>
+<body>
+    <div class="timerBox">
+        <button class="buttons start hover" onclick="startTimer()">Start</button>
+        <button class="buttons pause hover" onclick="pauseTimer()">Pause</button>
+        <button class="buttons reset hover" onclick="resetTimer()">Reset</button>
+        <br>
+        <div id="app" class="timer">0:0</div>
+    </div>
+    <div id="lastRound" class="pauseList"></div>
+</body>
+</html>

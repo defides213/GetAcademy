@@ -1,0 +1,44 @@
+.buttons {
+    text-decoration: none;
+    background-color: inherit;
+    letter-spacing: 1px;
+    color: black;
+    outline: green;
+    padding: 15px 2px;
+    position: relative;
+    width: 30%;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.4s;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.hover:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.2s;
+}
+
+.start:hover:before {
+    width: 175%;
+}
+
+.pause:hover:before {
+    width: 175%;
+}
+
+.reset:hover:before {
+    width: 175%;
+}
+
