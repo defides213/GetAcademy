@@ -6,9 +6,19 @@
     <title>Stop watch</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/overlay.css">
     <script defer src="js/java.js"></script>
 </head>
 <body>
+
+    <div class="overlayOpacity" id="overlayID">
+        <h1 class="pauseTitle transform">PAUSED</h1>
+        <div class="pauseResume transform">
+            Would you like to resume?
+        </div> 
+            <button class="buttons start hover buttonResume transform" onclick="startTimer()">Start</button>
+    </div>
+
     <div class="timerBox">
         <button class="buttons start hover" onclick="startTimer()">Start</button>
         <button class="buttons pause hover" onclick="pauseTimer()">Pause</button>

@@ -2,28 +2,28 @@ const app = document.getElementById("app");
 const roundTime = document.getElementById("lastRound");
 let seconds = 0;
 let minutes = 0;
+let minutesTimer;
+let secondsTimer;
 var timer;
 
 function countSeconds() {
     app.innerHTML = minutes + ":" + seconds;
     seconds++;
-}
-
-function countMinutes() {
-    seconds = 0;
-    minutes++;
+    if(seconds === 60) {
+        minutes++;
+        seconds = 0;
+    }
 }
 
 function startTimer() {
-    setInterval(countSeconds, 1000);
-    setInterval(countMinutes, 60000);
+    secondsTimer = setInterval(countSeconds, 1000);
+    document.getElementById("overlayID").style.display = "none";
 }
 
 function pauseTimer() {
-    roundTime.innerHTML += `<li>${minutes - 0} minutes : ${seconds - 1} seconds</li>`;
-    clearInterval(timer);
-    seconds = 0;
-    minutes = 0; 
+    roundTime.innerHTML += `<li>Paused at ${minutes} minutes : ${seconds - 1} seconds</li>`;
+    clearInterval(secondsTimer);
+    document.getElementById("overlayID").style.display = "block";
 }
 
 function resetTimer() {
