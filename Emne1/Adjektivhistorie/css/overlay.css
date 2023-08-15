@@ -1,0 +1,71 @@
+.overlayOpacity {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.904);
+    z-index: 2;
+}
+.pauseTitle {
+    top: 1.8%;
+    font-size: 50px;
+    color: white;
+}
+.pauseResume {
+    color: azure;
+    font-size: 25px;
+    padding: 10px;
+    top: 18%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    align-items: left;
+    display: flex;
+    justify-content: left;
+}
+
+button.overlayDelicate {
+    width: 25%;
+    height: 7%;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    transition: color 0.4s;
+    position: relative;
+    text-decoration: none;
+    background-color: inherit;
+    border: solid 1px #92DCE5;
+}
+
+.overlayDelicate {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.overlayDelicate:hover {
+    color: black;
+}
+
+.overlayDelicate:hover:before {
+    width: 175%;
+}
+
+.buttonResume {
+    color: white;
+    position: absolute;
+    top: 30%;
+}
+.buttonResume:hover {
+    color: black;
+}
+
+.transform {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

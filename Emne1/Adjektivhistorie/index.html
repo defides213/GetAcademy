@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjektivhistorie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <script defer src="js/java.js"></script>
+</head>
+<body>
+
+    <div class="overlayOpacity" id="overlayID">
+        <h1 class="pauseTitle transform">COMPLETE STORY</h1>
+        <div class="pauseResume transform" id="overlayCompleteStory">
+            
+        </div> 
+            <button class="overlayDelicate hover buttonResume transform" onclick="resetStory()">Restart</button>
+    </div>
+
+    <div class="row">
+        <div class="border center" id="wordTab">
+            <div>First Word</div>
+            <button class="delicate hover" onclick="firstWordChoice(this)">Cockroach</button>
+            <button class="delicate hover" onclick="firstWordChoice(this)">Mantaray</button>
+            <div>Second Word</div>
+            <button class="delicate hover" onclick="secondWordChoice(this)">Humans</button>
+            <button class="delicate hover" onclick="secondWordChoice(this)">Crabs</button>
+            <div>Third Word</div>
+            <button class="delicate hover" onclick="thirdWordChoice(this)">Backflips</button>
+            <button class="delicate hover" onclick="thirdWordChoice(this)">Moonwalks</button>
+            <div>Fourth Word</div>
+            <button class="delicate hover" onclick="fourthWordChoice(this)">Purge</button>
+            <button class="delicate hover" onclick="fourthWordChoice(this)">Fall</button>
+        </div>
+        <div class="grid border">
+            <div class="gap" id="outputStory1"></div>
+            <div class="gap" id="outputStory2"></div>
+            <div class="gap" id="outputStory3"></div>
+            <div class="gap" id="outputStory4"></div>
+    </div>
+    </div>
+
+</body>
+</html>

@@ -11,9 +11,6 @@
     overflow: hidden;
     z-index: 1;
     transition: color 0.4s;
-    display: flexbox;
-    align-items: center;
-    justify-content: center;
     margin-left: 5px;
 }
 

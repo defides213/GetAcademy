@@ -1,0 +1,39 @@
+button.delicate {
+    width: 45%;
+    height: 9%;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    transition: color 0.4s;
+    position: relative;
+    text-decoration: none;
+    background-color: inherit;
+    border: solid 1px #92DCE5;
+}
+
+.hover:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: #F7EC59;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.2s;
+}
+
+.delicate {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.delicate:hover {
+    color: black;
+}
+
+.delicate:hover:before {
+    width: 175%;
+}
