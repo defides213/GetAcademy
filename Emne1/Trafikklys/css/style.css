@@ -1,0 +1,46 @@
+body {
+    margin-top: 0;
+    margin-left: 20px;
+    font-family: Ubuntu;
+    background-color: rgb(95, 94, 94);
+    color: white;
+}
+
+.border {
+    border: solid black 1px;
+    color: white;
+    background-color: #2B2D42;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gap {
+    margin-bottom: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.trafficBox {
+    width: 400px;
+    height: 100%;
+}
+
+.circles {
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(59, 59, 59);
+}

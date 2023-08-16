@@ -1,0 +1,64 @@
+button.trafficLightsButton {
+    width: 30%;
+    height: 9%;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    transition: color 0.4s;
+    position: relative;
+    text-decoration: none;
+    background-color: inherit;
+    border: solid 1px #568288;
+}
+
+.hover:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.2s;
+}
+
+.redHover:before {
+    background: #8a0505;
+}
+
+.yellowHover:before {
+    background: #c3e211;
+}
+
+.greenHover:before {
+    background: #08af16;
+}
+
+.trafficLightsButton:hover {
+    color: black;
+}
+
+.trafficLightsButton:hover:before {
+    width: 175%;
+}
+
+
+
+button.startStopButtons {
+    width: 49%;
+    height: 30px;
+}
+
+.startStopButtons:hover {
+    color: black;
+}
+
+.startStopButtons:hover:before {
+    width: 175%;
+}
+
+.startStopButtons:before {
+    background: #7c967e;
+}

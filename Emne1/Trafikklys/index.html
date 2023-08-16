@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic_Lights</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/traficLights.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <script defer src="js/java.js"></script>
+</head>
+
+<body>
+
+    <div class="border trafficBox center">
+        <button class="startStopButtons trafficLightsButton hover" onclick="activateRed()">Start Timeout Cycle</button>
+        <button class="startStopButtons trafficLightsButton hover" onclick="location.reload()">Stop Timeout Cycle</button>
+    </div>
+    <div class="border trafficBox center gap">
+        <button class="startStopButtons trafficLightsButton hover" onclick="startInterval()">Start Interval Cycle</button>
+        <button class="startStopButtons trafficLightsButton hover" onclick="stopInterval()">Stop Interval Cycle</button>
+    </div>
+
+    <div class="border trafficBox center">
+        <button class="trafficLightsButton redHover hover" onclick="colorRedtraffic('red')">RED</button>
+        <button class="trafficLightsButton yellowHover hover" onclick="colorYellowtraffic('yellow')">YELLOW</button>
+        <button class="trafficLightsButton greenHover hover" onclick="colorGreentraffic('green')">GREEN</button>
+    </div>
+
+    <div class="border trafficBox center col">
+        <div class="circles center trafficColor" id="red"></div>
+        <div class="circles center trafficColor" id="yellow"></div>
+        <div class="circles center trafficColor" id="green"></div>
+    </div>
+
+</body>
+
+</html>
