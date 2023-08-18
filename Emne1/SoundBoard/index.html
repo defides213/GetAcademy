@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Board</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <script defer src="js/java.js"></script>
+</head>
+
+<body>
+
+    <div class="bigBox gap col">
+        <div class="border soundsBox">
+            <div class="center soundsfre">Sounds</div>
+            <div class="buttonBox flex center">
+                <button class="buttonBox margin hover" onclick="playSounds('bubbles')">Bubbles</button>
+                <button class="buttonBox margin hover" onclick="playSounds('clay')">Clay</button>
+                <button class="buttonBox margin hover" >Confetti</button>
+                <audio id="bubbles" src="sounds/bubbles.mp3"></audio>
+                <audio id="clay" src="sounds/clay.mp3"></audio>
+                <audio id="confetti" src="sounds/confetti.mp3"></audio>
+            </div>
+            <div class="buttonBox flex center">
+                <button class="buttonBox margin hover" onclick="playSounds('glimmer')">Glimmer</button>
+                <button class="buttonBox margin hover" onclick="playSounds('moon')">moon</button>
+                <button class="buttonBox margin hover" onclick="playSounds('ufo')">ufo</button>
+                <audio id="glimmer" src="sounds/glimmer.mp3"></audio>
+                <audio id="moon" src="sounds/moon.mp3"></audio>
+                <audio id="ufo" src="sounds/ufo.mp3"></audio>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

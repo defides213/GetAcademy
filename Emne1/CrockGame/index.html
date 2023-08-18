@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crock Game</title>
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/numbers.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="flex">
+        <div class="con-1 border">
+            <h1 class="center gap">Crock Game</h1>
+            <div class="flex gap">
+                <img src="img/crig.png" class="img center">
+                <div class="grid center">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button class="buttons hover">???</button></a>
+                    <button class="buttons hover" onclick="submitNumber()">submit</button>
+                    <button class="buttons hover" onclick="resetNumber()">reset</button>
+                    <div class="randomNumber" id="firstNumber"></div>
+                    <input type="text" class="inputText" id="inputValue">
+                    <div class="randomNumber" id="secondNumber"></div>
+                </div>
+            </div>
+        </div>
+        <div class="con-2 border center">
+            <div class="pointsText">Points</div>
+            <div class="pointsNumbers" id="points">0</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

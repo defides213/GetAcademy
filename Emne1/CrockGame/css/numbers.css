@@ -1,0 +1,10 @@
+.inputText {
+    letter-spacing: 1px;
+    border: 1px solid white;
+    background-color: inherit;
+    color: white;
+}
+
+.randomNumber {
+    font-size: 250%;
+}
