@@ -1,11 +1,12 @@
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 
 body {
     font-family: 'Abel', sans-serif!important;
     background-color: rgb(73, 73, 73)!important;
     color: white;
+    height: 100%;
 }
 
 h1 {
@@ -24,6 +25,7 @@ p.leftbarP {
 
 .leftNavbar {
     height: 100%;
+    min-height: 100%;
 }
 
 .border {
@@ -33,11 +35,6 @@ p.leftbarP {
 
 .float {
     float: left;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
 }
 
 .margin {
@@ -78,5 +75,6 @@ p.leftbarP {
 .emneGrid {
     display: grid;
     margin-left: 6%;
+    min-height: 100%;
     grid-template-columns: repeat(1, 146px);
 }
