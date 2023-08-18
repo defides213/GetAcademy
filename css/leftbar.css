@@ -1,0 +1,41 @@
+button.navbarbutton {
+    width: 32%;
+    height: 10%;
+    border: white solid 1px;
+    color: rgb(218, 163, 13);
+    background-color: inherit;
+    transition: color 0.4s;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: uppercase;
+}
+
+.hover:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: rgb(218, 163, 13);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.2s;
+}
+
+.navbarbutton:hover {
+    color: white;
+}
+
+.navbarbutton:hover:before {
+    width: 175%;
+}
+
+.img {
+    margin-top: 3%;
+    height: 40px;
+    width: 40px;
+}

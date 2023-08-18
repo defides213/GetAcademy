@@ -1,6 +1,82 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body {
-    font-family: Ubuntu;
-    margin-top: -10px;
-    background-color: rgb(0, 7, 4);
+    font-family: 'Abel', sans-serif!important;
+    background-color: rgb(73, 73, 73)!important;
     color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p.leftbarP {
+    color: rgb(85, 85, 85);
+}
+
+.leftNavbar {
+    height: 100%;
+}
+
+.border {
+    border: solid white 1px;
+    background-color: #2B2D42;
+}
+
+.float {
+    float: left;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.margin {
+    margin-top: 7%;
+}
+
+
+.gap {
+    margin-bottom: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.con-1 {
+    width: 30%;
+    height: 100%;
+}
+
+.con-2 {
+    margin-top: 1%;
+    width: 10%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.emneGrid {
+    display: grid;
+    margin-left: 6%;
+    grid-template-columns: repeat(1, 146px);
 }

@@ -1,45 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/leftbar.css">
+    <link rel="stylesheet" href="css/emnebuttons.css">
+    <link rel="stylesheet" href="css/maingrid.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script defer src="java/java.js"></script>
 </head>
-<body>
-    
-    <div>
-        <h1>Currently ugly. Stay put!</h1>
-        <h2>My Projects for Get Academy</h2>
-        <br>
-        <h3>Emne 1:</h3>
-        <br>
-        <li>
-            <a href="Emne1/Eksempel1/index.html">Eksempel 1</a>
-        </li>
-        <li>
-            <a href="Emne1/ukeoppgave1/index.html">Uke oppgave 1</a>
-        </li>
-        <li>
-            <a href="Emne1/Visuell_teller/index.html">Visuell teller</a>
-        </li>
-        <li>
-            <a href="Emne1/Stoppeklokke/index.html">Stoppeklokke</a>
-        </li>
-        <li>
-            <a href="Emne1/Adjektivhistorie/index.html">Adjectiv Historie</a>
-        </li>
-        <li>
-            <a href="Emne1/Trafikklys/index.html">Trafikklys</a>
-        </li>
-        <li>
-            <a href="Emne1/SoundBoard/index.html">Sound Board</a>
-        </li>
-        <li>
-            <a href="Emne1/CrockGame/index.html">Crock Game</a>
-        </li>
+
+<body class="bg-warning text-white">
+
+    <div class="row">
+        <div class="col-2 leftNavbar">
+            <div class="border">
+                <div class="center"><img class="img" src="img/OOAAAA.png"></div>
+                <h3 class="center">Projects get</h3>
+                <p class="center leftbarP">-- 2023 --</p>
+                <hr>
+                <button class="navbarbutton hover" onclick="emne1()">Emne 1</button>
+                <button class="navbarbutton hover" onclick="emne2()">Emne 2</button>
+                <button class="navbarbutton hover" onclick="emne3()">Emne 3</button>
+                <div class="size emneGrid">
+                    <div id="emne1" class="margin"></div>
+                    <div id="emne2"></div>
+                    <div id="emne3"></div>
+                </div>
+                <hr>
+                <div class="center">
+                    <p class="col">
+                        Extra information
+                        <a href=""><button class="emnebuttons" onclick="underConstruction()">News</button></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col flex">
+            <div class="center col-12">
+                <h1 class="display-3">welcome</h1>
+            </div>
+            <div class="col-11 flex">
+                <div class="con-2 border col-2 whoamI">
+                    <h2>Who am I?</h2>
+                    <p></p>
+                </div>
+                <div class="con-2 border col-2"></div>
+                <div class="con-2 border col"></div>
+                <div class="con-2 border col-2"></div>
+                
+                
+            </div>
+            
+            
+        </div>
     </div>
-    
 
 </body>
+
 </html>
