@@ -25,11 +25,10 @@ p.leftbarP {
 
 .leftNavbar {
     height: 100%;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
-.border {
-    border: solid white 1px;
+.uni-bg {
     background-color: #2B2D42;
 }
 
@@ -41,25 +40,15 @@ p.leftbarP {
     margin-top: 7%;
 }
 
-
-.gap {
-    margin-bottom: 20px;
-}
-
-.col {
+/* .col {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .center {
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.con-1 {
-    width: 30%;
-    height: 100%;
 }
 
 .con-2 {
@@ -75,6 +64,5 @@ p.leftbarP {
 .emneGrid {
     display: grid;
     margin-left: 6%;
-    min-height: 100%;
     grid-template-columns: repeat(1, 146px);
 }
