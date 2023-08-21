@@ -16,8 +16,8 @@ function emne1() {
         <a href="Emne1/Trafikklys/index.html"><button class="emnebuttons">Trafikklys</button></a>
         <a href="Emne1/SoundBoard/index.html"><button class="emnebuttons">Sound Board</button></a>
         <a href="Emne1/CrockGame/index.html"><button class="emnebuttons">Crock Game</button></a>
+        <a href="Emne1/Lightswitch/index.html"><button class="emnebuttons">Lyspære</button></a>
         <p>-Unfinished Projects-</p>
-        <a href="Emne1/"><button class="emnebuttons">Lyspære</button></a>
         <a href="Emne1/"><button class="emnebuttons">Super Mario</button></a>
         <a href="Emne1/"><button class="emnebuttons">Endre Dukken</button></a>
         <a href="Emne1/"><button class="emnebuttons">Chatbot</button></a>

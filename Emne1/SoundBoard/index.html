@@ -21,20 +21,23 @@
         <div class="border soundsBox">
             <div class="center soundsfre">Sounds</div>
             <div class="buttonBox flex center">
-                <button class="buttonBox margin hover" onclick="playSounds('bubbles')">Bubbles</button>
-                <button class="buttonBox margin hover" onclick="playSounds('clay')">Clay</button>
-                <button class="buttonBox margin hover" onclick="playSounds('confetti')">Confetti</button>
-                <audio id="bubbles" src="sounds/bubbles.mp3"></audio>
+                <button class="buttonBox margin hover" onclick="playSounds('sounds/bubbles.mp3')">Bubbles</button>
+                <button class="buttonBox margin hover" onclick="playSounds('sounds/clay.mp3')">Clay</button>
+                <button class="buttonBox margin hover" onclick="playSounds('sounds/confetti.mp3')">Confetti</button>
+                <!-- <audio id="bubbles" src="sounds/bubbles.mp3"></audio>
                 <audio id="clay" src="sounds/clay.mp3"></audio>
-                <audio id="confetti" src="sounds/confetti.mp3"></audio>
+                <audio id="confetti" src="sounds/confetti.mp3"></audio> -->
             </div>
             <div class="buttonBox flex center">
-                <button class="buttonBox margin hover" onclick="playSounds('glimmer')">Glimmer</button>
-                <button class="buttonBox margin hover" onclick="playSounds('moon')">moon</button>
-                <button class="buttonBox margin hover" onclick="playSounds('ufo')">ufo</button>
-                <audio id="glimmer" src="sounds/glimmer.mp3"></audio>
+                <button class="buttonBox margin hover" onclick="playSounds('sounds/glimmer.mp3')">Glimmer</button>
+                <button class="buttonBox margin hover" onclick="playSounds('sounds/moon.mp3')">moon</button>
+                <button class="buttonBox margin hover" onclick="playSounds('sounds/ufo.mp3')">ufo</button>
+                <!-- <audio id="glimmer" src="sounds/glimmer.mp3"></audio>
                 <audio id="moon" src="sounds/moon.mp3"></audio>
-                <audio id="ufo" src="sounds/ufo.mp3"></audio>
+                <audio id="ufo" src="sounds/ufo.mp3"></audio> -->
+            </div>
+            <div>
+                <audio controls id="audio-mixer" src="sounds/bubbles.mp3" class="audioController"></audio>
             </div>
         </div>
     </div>

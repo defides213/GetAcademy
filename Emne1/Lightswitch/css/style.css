@@ -1,0 +1,79 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    height: 100%;
+}
+
+
+.light-blocks {
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: -20px;
+}
+
+.lights {
+    display: flex;
+    background-color: inherit;
+    color: rgb(73, 73, 73);
+    z-index: -1;
+    position: relative;
+    margin-top: -400px;
+}
+
+.lightstand {
+    display: flex;
+    background-color: rgb(73, 73, 73);
+    height: 30px;  
+    z-index: 2;
+    position: relative;
+}
+
+.border {
+    border: solid black 1px;
+    color: white;
+    background-color: #2B2D42;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gap {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 100px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+
+.box {
+   width: 200px;
+   height: 80px;
+   background-color: rgb(61, 61, 61);
+}
+
+.switchImg {
+    margin-right: 10px;
+}
+
+.lightImg {
+   font-size: 60px;
+   z-index: -1;
+}
