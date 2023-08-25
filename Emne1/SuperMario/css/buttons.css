@@ -1,0 +1,83 @@
+.buttons {
+    position: absolute;
+    bottom: 40px;
+    left: 300px;
+}
+
+button.opacitychange {
+    opacity: 20%;
+}
+
+button.bottomButtons {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    padding: 8px 20px;
+    margin: 0px 3px 6px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    z-index: 0;
+}
+
+.bottomButtons:before {
+    position: absolute;
+    content: "";
+    background: rgb(255, 255, 255);
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px 0px auto auto;
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+}
+
+.bottomButtons:hover::before {
+    width: 0px;
+    height: 100%;
+    opacity: 1;
+}
+
+.bottomButtons:active {
+    top: 1px;
+}
+
+.bottomButtons-rev {
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease 0s, background 0s ease 0.3s;
+}
+
+.bottomButtons-rev:hover {
+    background-image: url("../img/firebutton.png");
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease 0s, background 0s ease 0s;
+}
+
+.bottomButtons-rev:after {
+    position: absolute;
+    content: "";
+    background: rgb(255, 255, 255);
+    transition-duration: 0.3s;
+    z-index: -1;
+    inset: 0px auto auto 0px;
+    width: 50%;
+    height: 100%;
+    opacity: 1;
+}
+
+.bottomButtons-rev:hover::after {
+    width: 0px;
+}
+
+.attackButton {
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.somethingbutton {}

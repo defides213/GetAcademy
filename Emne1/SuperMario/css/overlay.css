@@ -1,0 +1,47 @@
+h1 {
+    text-transform: uppercase;
+}
+
+.overlayImg {
+    width: 60px;
+    height: 80px;
+}
+
+.overlayButton {
+    position: relative;
+    width: 100px;
+    text-transform: uppercase;
+    border: solid 2px rgb(105, 59, 59);
+    background-color: white;
+    cursor: pointer;
+}
+.overlayButton:before {
+    top: 2px;
+}
+.overlayButton:hover {
+    top: 2px;
+}
+
+.restartButton {
+    height: 40px;
+}
+
+.overlaystyle {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+.gameOver{
+    display: none;
+}
+
+.vicW{
+    display: none;
+}

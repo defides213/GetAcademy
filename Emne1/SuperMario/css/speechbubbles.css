@@ -1,0 +1,108 @@
+
+/* -- Peach Speech Bubble -- */
+
+.peachSpeechBubble {
+    border: 1px white solid;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    width: 200px;
+    display: flex;
+}
+
+.peachBubbleOpacity {
+    opacity: 0%;
+}
+
+.peachBubble {
+    position: absolute;
+    top: 350px;
+    right: 130px;
+}
+
+.peachBubbleImg {
+    transform: scaleX(-1);
+    object-fit: contain;
+    justify-content: flex-end;
+}
+
+/* -- Toad Speech Bubble -- */
+
+.toadSpeechBubble {
+    border: 1px white solid;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    width: 200px;
+    display: flex;
+}
+
+.toadBubbleOpacity {
+    opacity: 0%;
+}
+
+.toadBubble {
+    position: absolute;
+    top: 450px;
+    left: 40px;
+}
+
+.toadBubbleImg {
+    object-fit: contain;
+    justify-content: flex-start;
+}
+
+/* -- Bowser Speech Bubble -- */
+
+.bowserSpeechBubble {
+    border: 1px white solid;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    width: 320px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.bowserBubbleOpacity {
+    opacity: 0%;
+}
+
+.bowserBubble {
+    position: absolute;
+    top: 250px;
+    right: 500px;
+}
+
+.bowserBubbleImg {
+    transform: scaleX(-1);
+    object-fit: contain;
+    justify-content: flex-start;
+}
+
+/* -- Bowser JR Speech Bubble -- */
+
+.bowserJRSpeechBubble {
+    border: 1px white solid;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    width: 270px;
+    display: flex;
+}
+
+.bowserJRBubbleOpacity {
+    opacity: 0%;
+}
+
+.bowserJRBubble {
+    position: absolute;
+    top: 250px;
+    right: 500px;
+}
+
+.bowserJRBubbleImg {
+    transform: scaleX(-1);
+    object-fit: contain;
+    justify-content: flex-start;
+}

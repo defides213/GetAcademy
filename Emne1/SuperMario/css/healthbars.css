@@ -1,0 +1,34 @@
+#bowserHp {
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    border-radius: 2px;
+}
+
+#bowserHp::-webkit-progress-bar {
+    background-color: rgb(221, 169, 0);
+    border-radius: 2px;
+}
+
+#bowserHp::-webkit-progress-value {
+    background-color: rgb(151, 16, 39);
+    border-radius: 2px;
+}
+
+#playableHp {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    border-radius: 1px;
+    width: 120px;
+}
+
+#playableHp::-webkit-progress-bar {
+    background-color: rgb(221, 169, 0);
+    border-radius: 1px;
+}
+
+#playableHp::-webkit-progress-value {
+    background-color: rgb(16, 151, 72);
+    border-radius: 1px;
+}

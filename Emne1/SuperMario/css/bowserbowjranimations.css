@@ -1,0 +1,78 @@
+
+/* -- Bowser Speech Bubble animation -- */
+
+@keyframes bowserBubbleIn {
+    from {
+        scale: 0%;
+        opacity: 0%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    to {
+        scale: 100%;
+        opacity: 100%;
+    }
+}
+
+.bowserBubbleAnimationIn {
+    animation-duration: 200ms;
+    animation-name: bowserBubbleIn;
+}
+
+@keyframes bowserBubbleOut {
+    from {
+        scale: 100%;
+        opacity: 100%;
+    }
+    20% {
+        opacity: 0%;
+    }
+    to {
+        scale: 0%;
+    }
+}
+
+.bowserBubbleAnimationOut {
+    animation-duration: 200ms;
+    animation-name: bowserBubbleOut;
+}
+
+/* -- Bowser JR Speech Bubble animation -- */
+
+@keyframes bowserJRBubbleIn {
+    from {
+        scale: 0%;
+        opacity: 0%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    to {
+        scale: 100%;
+        opacity: 100%;
+    }
+}
+
+.bowserJRBubbleAnimationIn {
+    animation-duration: 200ms;
+    animation-name: bowserJRBubbleIn;
+}
+
+@keyframes bowserJRBubbleOut {
+    from {
+        scale: 100%;
+        opacity: 100%;
+    }
+    20% {
+        opacity: 0%;
+    }
+    to {
+        scale: 0%;
+    }
+}
+
+.bowserJRBubbleAnimationOut {
+    animation-duration: 200ms;
+    animation-name: bowserJRBubbleOut;
+}

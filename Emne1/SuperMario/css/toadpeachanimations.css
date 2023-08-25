@@ -1,0 +1,171 @@
+/* -- Yoshi Animations -- */
+
+@keyframes yoshirun {
+    from {
+        left: -120px;
+    }
+    to {
+        left: 1400px;
+    }
+}
+
+.yoshirun {
+    animation-duration: 3s;
+    animation-name: yoshirun;
+}
+
+@keyframes yoshifall {
+    from {
+        left: 1400px;
+        top: 446px;
+        opacity: 100%;
+    }
+    to {
+        left: 1400px;
+        top: 1000px;
+        opacity: 0%;
+    }
+}
+
+.yoshifall {
+    animation-duration: 3s;
+    animation-name: yoshifall;
+}
+
+/* -- Toad Animations -- */
+
+@keyframes toadWalkIn {
+    from {
+        left: -120px;
+    }
+    to {
+        left: 10px;
+    }
+}
+
+.toadWalkIn {
+    animation-duration: 2s;
+    animation-name: toadWalkIn;
+}
+
+@keyframes toadWalkOut {
+    from {
+        left: 10px;
+    }
+    to {
+        left: -120px;
+    }
+}
+
+.toadWalkOut {
+    animation-duration: 2s;
+    animation-name: toadWalkOut;
+}
+
+/* -- Peach Bubble Animation -- */
+
+@keyframes peachBubbleIn {
+    from {
+        scale: 0%;
+        opacity: 0%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    to {
+        scale: 100%;
+        opacity: 100%;
+    }
+}
+
+.peachBubbleAnimationIn {
+    animation-duration: 200ms;
+    animation-name: peachBubbleIn;
+}
+
+@keyframes peachBubbleOut {
+    from {
+        scale: 100%;
+        opacity: 100%;
+    }
+    20% {
+        opacity: 0%;
+    }
+    to {
+        scale: 0%;
+    }
+}
+
+.peachBubbleAnimationOut {
+    animation-duration: 200ms;
+    animation-name: peachBubbleOut;
+}
+
+/* -- Peach Idle Animation -- */
+
+@keyframes peachBobDown {
+    from {
+        top: 408px;
+    }
+    to {
+        top: 410px;
+    }
+}
+
+.peachBobDown {
+    animation-duration: 1s;
+    animation-name: peachBobDown;
+}
+
+@keyframes peachBobUp {
+    from {
+        top: 410px;
+    }
+    to {
+        top: 408px;
+    }
+}
+
+.peachBobUp {
+    animation-duration: 1s;
+    animation-name: peachBobUp;
+}
+
+/* -- Toad Bubble Animation -- */
+
+@keyframes toadBubbleIn {
+    from {
+        scale: 0%;
+        opacity: 0%;
+    }
+    20% {
+        opacity: 100%;
+    }
+    to {
+        scale: 100%;
+        opacity: 100%;
+    }
+}
+
+.toadBubbleAnimationIn {
+    animation-duration: 200ms;
+    animation-name: toadBubbleIn;
+}
+
+@keyframes toadBubbleOut {
+    from {
+        scale: 100%;
+        opacity: 100%;
+    }
+    20% {
+        opacity: 0%;
+    }
+    to {
+        scale: 0%;
+    }
+}
+
+.toadBubbleAnimationOut {
+    animation-duration: 200ms;
+    animation-name: toadBubbleOut;
+}

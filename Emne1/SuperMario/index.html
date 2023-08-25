@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/healthbars.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/toadpeachanimations.css">
+    <link rel="stylesheet" href="css/speechbubbles.css">
+    <link rel="stylesheet" href="css/bowserbowjranimations.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/bowsers.js"></script>
+    <script defer src="js/animations.js"></script>
+    <script defer src="js/speechbubble.js"></script>
+</head>
+<body>
+    
+    <div id="overlayStart" class="center overlaystyle">
+        <h1>Choose your fighter</h1>
+        <button id="marioCharacter" class="overlayButton" onclick="chooseCharacter('mario')"><img src="img/mario.png" class="overlayImg">Mario</button>
+        <button id="luigiCharacter" class="overlayButton" onclick="chooseCharacter('luigi')"><img src="img/luigi.png" class="overlayImg">Luigi</button>
+    </div>
+
+    <div id="overlayW" class="center overlaystyle vicW">
+        <h1>Victory!</h1>
+        <h3>Congratulations</h3>
+        <button class="overlayButton restartButton" onclick="restart()">Restart</button>
+    </div>
+
+    <div id="overlayGameOver" class="center overlaystyle gameOver">
+        <h1>Game over</h1>
+        <button class="overlayButton restartButton" onclick="restart()">Restart</button>
+    </div>
+
+
+    <div class="mario-luigi" id="playableCharacters">
+        <progress id="playableHp" value="140" max="140"></progress>
+        <img src="img/mario.png" id="playableID">
+    </div>
+    
+    <div class="bowserJRSpeechBubble bowserJRBubble bowserJRBubbleOpacity" id="bowserJRBubble">
+        <img src="img/bowserjrbubble.png" class="bowserJRBubbleImg">
+        <span>Bowser, I got your back here is some health!</span>
+    </div>
+
+    <div class="bowserSpeechBubble bowserBubble bowserBubbleOpacity" id="bowserBubble">
+        <span><span id="characterNameBowser"></span>You've hurt me enough, time for you to die!</span>
+        <img src="img/bowsertextubblesmaller.png" class="bowserBubbleImg">
+    </div>
+
+    <div class="bowserImg" id="bowserBoi">
+        <progress id="bowserHp" value="300" max="300"></progress>
+        <img src="img/bowser.png" id="bowserImgID">
+    </div>
+    
+    <div class="peachBubble peachSpeechBubble peachBubbleOpacity" id="peachBubble"> 
+        <span><span id="characterNamePeach"></span>Use the flower! It will strengthen you for a short period of time</span>
+        <img src="img/peachspeech.png" class="peachBubbleImg">
+    </div>
+    <div class="peachImg peachCurrentHeight" id="peachImg">
+        <img src="img/peach.png" >
+    </div>
+
+    <div class="shroomYoshiEgg">
+        <img src="img/shroomblackandwhite.png" onclick="toadWalkOut()" id="toadAvailable">
+        <img src="img/yoshieggblackandwhite.png" onclick="yoshiRun()" id="yoshiavailable">
+        <img src="img/fireflowerblackandwhite.png" onclick="fireFlowerAvailable()" id="firefloweravailable">
+    </div>
+    
+    <div class="yoshiImg" id="yoshiImg">
+        <img src="img/yoshi.png" id="yoshi">
+    </div>
+
+    <div class="toadSpeechBubble toadBubble toadBubbleOpacity" id="toadBubble">
+        <img src="img/toadspeech.png" class="toadBubbleImg">
+        <span><span id="toadCharacterName"></span>I have some health for you!</span>
+    </div>
+    <div class="toadImg toadStance" id="toadImg">
+        <img src="img/toad.png" id="toad">
+    </div>
+
+    <div class="buttons">
+        <button class="attackButton bottomButtons bottomButtons-rev " onclick="attack()" id="playerAttack">attack</button>
+        <button class="bottomButtons bottomButtons-rev">???</button>
+    </div>
+
+    <div class="time" id="timer">
+
+    </div>
+
+</body>
+</html>

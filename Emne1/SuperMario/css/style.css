@@ -1,0 +1,79 @@
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    height: 100%;
+    background-image: url("../img/bowsersize1.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.mario-luigi {
+    position: absolute;
+    top: 502px;
+    left: 300px;
+}
+
+.yoshiImg {
+    position: absolute;
+    top: 442px;
+    left: -120px;
+}
+
+.shroomYoshiEgg {
+    position: absolute;
+    bottom: 0;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+/* -- Toad CSS -- */
+
+.toadImg {
+    position: absolute;
+    top: 507px;
+}
+
+.toadStance {
+    left: -100px;
+}
+
+.toadFlip {
+    transform: scaleX(-1);
+}
+
+/* -- Peach CSS -- */
+
+.peachImg {
+    position: absolute;
+    right: 100px;
+    transform: scaleX(-1);
+}
+.peachCurrentHeight {
+    top: 408px;
+}
+
+/* -- Bowser CSS -- */
+
+.bowserImg {
+    position: absolute;
+    top: 366px;
+    right: 300px;
+}
