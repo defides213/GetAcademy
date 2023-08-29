@@ -17,11 +17,11 @@ function emne1() {
         <a href="Emne1/SoundBoard/index.html"><button class="emnebuttons">Sound Board</button></a>
         <a href="Emne1/CrockGame/index.html"><button class="emnebuttons">Crock Game</button></a>
         <a href="Emne1/Lightswitch/index.html"><button class="emnebuttons">Lyspære</button></a>
+        <a href="Emne1/SuperMario/index.html"><button class="emnebuttons">Super Mario</button></a>
+        <a href="Emne1/changedoll/index.html"><button class="emnebuttons">Endre Dukken</button></a>
+        <a href="Emne1/chatbot/index.html"><button class="emnebuttons">Chatbot</button></a>
+        <a href="Emne1/GuesstheNumber/index.html"><button class="emnebuttons">Guess the Number</button></a>
         <p>-Unfinished Projects-</p>
-        <a href="Emne1/"><button class="emnebuttons">Super Mario</button></a>
-        <a href="Emne1/"><button class="emnebuttons">Endre Dukken</button></a>
-        <a href="Emne1/"><button class="emnebuttons">Chatbot</button></a>
-        <a href="Emne1/"><button class="emnebuttons">Guess the Number</button></a>
         <a href="Emne1/"><button class="emnebuttons">Stein, Saks, Papir</button></a>
         <a href="Emne1/"><button class="emnebuttons">Orakelet</button></a>
         <a href="Emne1/"><button class="emnebuttons">Handleliste</button></a>

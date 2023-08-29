@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="mainBox border">
+        <div class="">
+            <h1>Guess the Number</h1>
+            <div class="pointsInfo"><div>Points:</div> <div id="points"></div></div>
+            <div id="lowHigh"></div>
+            <input placeholder="White a Number here" oninput="svar = this.value" type="number" id="messages" onkeydown="enterPress(event)">
+            <div id="info"></div>
+            <p>Guess a number between 1 and 100</p>
+            <p>Good Luck!</p>
+        </div>
+    </div>
+
+</body>
+</html>

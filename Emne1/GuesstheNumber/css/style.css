@@ -1,0 +1,46 @@
+body {
+    font-family: 'Abel', sans-serif !important;
+    background-color: rgb(73, 73, 73) !important;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    font-size: x-small;
+}
+
+.pointsInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mainBox {
+    width: fit-content;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    background-color: rgb(192, 192, 192);
+    color: black;
+}
+
+#points {
+    margin-left: 20px;
+}
+
+#messages {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 98.3%;
+    border: 1px black solid;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.border {
+    border: solid black 2px;
+}

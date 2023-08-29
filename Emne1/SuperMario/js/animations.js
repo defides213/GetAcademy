@@ -18,6 +18,8 @@ function resetIdle() {
 
 // -- Yoshi Animations. -- //
 
+/* #region Yoshi */
+
 function activateYoshi() {
     yoshiAvailable = true;
     document.getElementById("yoshiavailable").src = `img/yoshiegg.png`;
@@ -47,6 +49,8 @@ function deactivateYoshi() {
     yoshiAvailable = false;
     document.getElementById("yoshiavailable").src = `img/yoshieggblackandwhite.png`;
 }
+
+/* #endRegion */
 
 // -- Toad Animations. -- //
 

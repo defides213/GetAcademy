@@ -1,0 +1,43 @@
+body {
+    font-family: 'Abel', sans-serif!important;
+    background-color: rgb(73, 73, 73)!important;
+    color: white;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 15%;
+    background-color: rgb(119, 119, 119);
+}
+img{
+    height: 150px;
+    width: 200px;
+}
+.bodyPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+button{
+    height: 30px;
+    width: 30px;
+    border: lightskyblue 1px solid;
+    position: relative;
+    cursor: pointer;
+}
+
+button:hover {
+    top: 2px;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+.border {
+    border: solid 2px black;
+}
