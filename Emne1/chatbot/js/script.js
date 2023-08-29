@@ -50,11 +50,11 @@ function botMessage(chat) {
         else if(chat === "what do you do with my data?" || chat === "what do you do with my data") {
             botResponse = "Nothing.";
         }
-        else if(chat === "do you save what I say?" || chat === "do you save what I say") {
-            botResponse = "No. It dosen't exist :)";
+        else if(chat === "do you save what i say?" || chat === "do you save what i say") {
+            botResponse = "No. It does not exist :)";
         }
         else if(chat === "who made you?" || chat === "who made you") {
-            botResponse = "My Creator made me.";
+            botResponse = "My Creator made Me.";
         }
         else if(chat === "which languages can you speak?" || chat === "which languages can you speak") {
             botResponse = "English, and only English";
