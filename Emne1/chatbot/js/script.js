@@ -62,7 +62,7 @@ function botMessage(chat) {
         else if(chat === "can you help me?" || chat === "can you help me") {
             botResponse = "Sure.";
         }
-        else if(chat === "do you get Smarter?" || chat === "do you get Smarter") {
+        else if(chat === "do you get smarter?" || chat === "do you get smarter") {
             botResponse = "No, I stay the same.";
         }
         else if(chat === "do you know a joke?" || chat === "do you know a joke") {
