@@ -21,8 +21,8 @@ function emne1() {
         <a href="Emne1/changedoll/index.html"><button class="emnebuttons">Endre Dukken</button></a>
         <a href="Emne1/chatbot/index.html"><button class="emnebuttons">Chatbot</button></a>
         <a href="Emne1/GuesstheNumber/index.html"><button class="emnebuttons">Guess the Number</button></a>
+        <a href="Emne1/RockPaperScissor/index.html"><button class="emnebuttons">Stein, Saks, Papir</button></a>
         <p>-Unfinished Projects-</p>
-        <a href="Emne1/"><button class="emnebuttons">Stein, Saks, Papir</button></a>
         <a href="Emne1/"><button class="emnebuttons">Orakelet</button></a>
         <a href="Emne1/"><button class="emnebuttons">Handleliste</button></a>
         <a href="Emne1/"><button class="emnebuttons">Pokemon Catcher</button></a>

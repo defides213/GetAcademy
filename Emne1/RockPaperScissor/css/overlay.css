@@ -1,0 +1,99 @@
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.904);
+    z-index: 2;
+    justify-content: center;
+}
+
+.original {    
+    top: 95%;
+    background-color: inherit;
+    border: inherit;
+    color: white;
+    cursor: pointer;
+}
+.original:hover {
+    top: 95.2%;
+    color: gray;
+}
+
+.transform {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.overlayMarginText {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.overlayMargin {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.userAndCompText {
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.userAndComp {
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+button.restart {
+    top: 27%;
+    width: 5%;
+    height: 4%;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    transition: color 0.4s;
+    position: relative;
+    text-decoration: none;
+    background-color: inherit;
+    border: solid 1px #ffffff;
+}
+
+button.restart:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: rgb(51, 0, 0);
+    z-index: -1;
+    transition: width 0.2s;
+}
+
+
+button.restart:hover::before {
+width: 175%;
+}
+
+button.restart:hover {
+    color: rgb(151, 151, 151);
+}
+
+button.restartMove:hover {
+    top: 27.2%;
+}
+
+#winnerIs {
+    top: 35%;
+}

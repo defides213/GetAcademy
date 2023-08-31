@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+
+    <div class="overlay" id="overlay">
+        <h1 class="transform title">Game Finished</h1>
+        <div class="userAndCompText transform">
+            <div id="userFinalChoiceText" class="overlayMarginText">Player</div>
+            <div id="compFinalChoiceText" class="overlayMarginText">Computer</div>
+        </div>
+        <div class="userAndComp transform">
+            <div class="overlayMargin"><img id="userFinalChoice" class="imges" src=""></div>
+            <div class="overlayMargin"><img id="compFinalChoice" class="imges" src=""></div>
+        </div>
+        <button class="restart restartMove transform " id="buttonRestart" onclick="tryAgain()">Try Again?</button>
+        <div class="transform" id="winnerIs"></div>
+        <a href="https://scrixels.tumblr.com/post/620365877780594688/1040-rock-paper-scissors"><button class="transform original">Original Image</button></a>
+
+    </div>
+
+    <div class="layout border">
+        <div class="title">
+            <h1>Game time</h1>
+        </div>
+        <div class="text-Top">
+            <h3>Rock, Paper, Scissor.</h3>
+        </div>
+        <div class="choicesBox">
+            <div class="choices rock" id="rock">
+                <img class="imges" src="img/rock.png" onclick="userChoice('rock')">
+            </div>
+            <div class="choices paper" id="paper">
+                <img class="imges" src="img/paper.png" onclick="userChoice('paper')">
+            </div>
+            <div class="choices scissor" id="scissor">
+                <img class="imges" src="img/scissor.png" onclick="userChoice('scissor')">
+            </div>
+            
+        </div>
+        <div class="text-Bottom">
+            <p>Rock, Paper, Scissor is pretty staight forward.</p>
+            <p>You choose either Rock, Paper or Scissor and the opposer is the Computer</p>
+        </div>    
+    </div>
+    
+
+</body>
+</html>

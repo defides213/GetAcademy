@@ -1,0 +1,47 @@
+body {
+    font-family: 'Abel', sans-serif !important;
+    background-color: rgb(73, 73, 73) !important;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: x-small;
+    margin: 0;
+}
+
+.text-Top {
+    text-align: left;
+}
+
+.choicesBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-Bottom {
+    text-align: left;
+}
+
+.layout {
+    margin-top: 0;
+    padding-top: 0;
+    padding: 30px;
+    width: 30%;
+    height: fit-content;
+    background-color: lightslategrey;
+}
+
+.border {
+    border: solid 2px black;
+}
