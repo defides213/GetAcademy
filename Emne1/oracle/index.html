@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Almighty Oracle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/noclassid.css">
+    <link rel="stylesheet" href="css/speechbubble.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper ">
+        <div class="border textalignCenter">
+            <img src="img/oracle.png" id="img">
+        </div>
+        <div class="oracleSpeechBubble oracleBubbleLocation oracleBubbleOpacity" id="oracleBubble">
+            <span id="oracleBubbleText"></span>
+        </div>
+        <div class="oracleBottomBox border">
+            <div class="textalignCenter"><h2>Ask The Oracle</h2></div>
+            <div class="flex">
+                <div class="margin-padding">
+                    <div class="text-alignCenter">
+                        <p>Talk to the Oracle</p>
+                        <p></p>
+                    </div>
+                    <div class="text-alignCenter">
+                        <input type="text" placeholder="Write to the Almighty Oracle" id="questionInput" onkeydown="if(event.keyCode === 13)answerShallProvide()">
+                    </div>
+                </div>
+                <div class="text-alignCenter margin-padding">
+                    <p>You can ask anything you want.</p> 
+                    <p>Try not to break the Oracle.</p>
+                    <p></p>
+                </div>
+            </div>
+            <div class="textalignCenter">
+                <p>You've spoken to the almighty Oracle. Have a blessed day on your travels</p>
+                <a href="https://pixabay.com/illustrations/character-pixel-art-pixelart-retro-7799114/"><button class="originalimage">Original Image</button></a>
+            </div>
+            
+        </div>
+    </div>
+
+
+</body>
+
+</html>

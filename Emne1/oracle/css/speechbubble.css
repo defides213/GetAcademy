@@ -1,0 +1,17 @@
+.oracleSpeechBubble {
+    border: 1px black solid;
+    color: white;
+    background-color: rgb(107, 107, 107);
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+
+.oracleBubbleLocation {
+    position: absolute;
+    top: 200px;
+    left: 730px;
+}
+.oracleBubbleOpacity {
+    opacity: 0%;
+}

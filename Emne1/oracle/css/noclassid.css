@@ -1,0 +1,39 @@
+h2 {
+    text-transform: uppercase;
+}
+
+p {
+    justify-content: left;
+    align-items: left;
+    margin: 1px;
+}
+
+
+
+input {
+    color: white;
+    background-color: black;
+    border: 2px white solid;
+    width: fit-content;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#img {
+    width: 60%;
+    height: 300px;
+}
+
+button.originalimage {
+    background-color: inherit;
+    border: inherit;
+    color: white;
+}
+
+button.originalimage:hover {
+    top: 2px;
+    color: rgb(163, 163, 163);
+    cursor: pointer;
+    
+}
