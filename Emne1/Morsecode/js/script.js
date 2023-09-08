@@ -19,5 +19,5 @@ function translator(fromInput) {
 
     document.getElementById("tranlationBox").innerHTML = `${translatedToMorse}`;
 
-    translatedToMorse = "/";
+    translatedToMorse = " ";
 }
