@@ -1,0 +1,51 @@
+body {
+    font-family: 'Abel', sans-serif !important;
+    background-color: rgb(73, 73, 73) !important;
+    color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.textalignCenter {
+    text-align: center;
+}
+
+.border {
+    border: solid 2px black;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.margin {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    width: 30%;
+    display: table;
+    margin: 0 auto;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+}
+
+.block {
+    display: block;
+}

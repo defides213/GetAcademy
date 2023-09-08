@@ -1,0 +1,58 @@
+textarea {
+    background-color: rgb(37, 35, 46);
+    font-family: 'Abel', sans-serif !important;
+    color: rgb(255, 163, 43);
+    height: 50px;
+    grid-column-start: auto;
+    border: solid 2px rgb(23, 22, 29);
+}
+
+p {
+    font-size: small;
+}
+
+.tranlationBox {
+    grid-column-end: auto;
+}
+
+button.marginleft {
+    margin-left: 2px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(68, 65, 87);
+    color: inherit;
+    border: inherit;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+button:active {
+    top: 1px;
+}
+
+button:before {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: rgb(255, 163, 43);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.5s;
+}
+
+button:hover {
+    color: white;
+}
+
+button:hover:before {
+    width: 175%;
+}

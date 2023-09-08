@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shopping.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="flex">
+            <div class="shoppingBox border">
+                <div class="shoppingCart ">
+                    <p class="textalignCenter">🛒 Shopping Cart</p>
+                    <div class="textalignCenter innerShoppingCart">
+                        <div class="grid innerShoppingCart" id="cartTop"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="wares">
+                    <p class="textalignCenter">Wares</p>
+                    <div class="textalignCenter">
+                        <div class="grid margin-bottom">
+                            <div class="margin images" id="cabbage" onclick="moveToCart('cabbage', wares, '🥬')">🥬</div>
+                            <div class="margin images" id="onion" onclick="moveToCart('onion', wares, '🧅')">🧅</div>
+                            <div class="margin images" id="carrot" onclick="moveToCart('carrot', wares, '🥕')">🥕</div>
+                            <div class="margin images" id="tomato" onclick="moveToCart('tomato', wares, '🍅')">🍅</div>
+                            <div class="margin images" id="potato" onclick="moveToCart('potato', wares, '🥔')">🥔</div>
+                            <div class="margin images" id="beef" onclick="moveToCart('beef', wares, '🥩')">🥩</div>
+                            <div class="margin images" id="chicken" onclick="moveToCart('chicken', wares, '🍗')">🍗</div>
+                            <div class="margin images" id="pig" onclick="moveToCart('pig', wares, '🍖')">🍖</div>
+                            <div class="margin images" id="cheese" onclick="moveToCart('cheese', wares, '🧀')">🧀</div>
+                            <div class="margin images" id="egg" onclick="moveToCart('egg', wares, '🥚')">🥚</div>
+                            <div class="margin images" id="seasoning" onclick="moveToCart('seasoning', wares, '🧂')">🧂</div>
+                            <div class="margin images" id="melon" onclick="moveToCart('melon', wares, '🍉')">🍉</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shoppingList border ">
+                <p class="textalignCenter">Shopping List</p>
+                <p class="textalignCenter">Add Item:</p>
+                <div class="center flex"><button onclick="removeListings()">Remove Listings</button></div>
+                <div class="center flex">
+                    <input class="textalignCenter center" type="text" id="inputShopping" placeholder="Add Items to list" onkeydown="if(event.keyCode === 13)enterPress()">
+                </div>
+                <ul id="list">
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

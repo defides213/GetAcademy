@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morsecode</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/morsecode.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="textaligncenter">
+            <h3>Morse Code Translater</h3>
+            <p>Only English works for this device</p>
+            <p>Special charaters and numbers do not work either for this device</p>
+        </div>
+        <div class="grid-2 padding">
+            <div class="textaligncenter">
+                <span>Input</span>
+            </div>
+            <div class="textaligncenter">
+                <span>Translated</span>
+            </div>
+        </div>
+        <div class="grid-5 padding">
+            <textarea name="" placeholder="Write what you want to translate" id="textInput" cols="1" rows="1" onclick=""></textarea>
+            <div></div>
+            <div class="tranlationBox border" id="tranlationBox">
+                
+            </div>
+        </div>
+        <div class="padding textaligncenter">
+            <button onclick="translator(fromInput)">Translate</button>
+        </div>
+    </div>
+</body>
+</html>

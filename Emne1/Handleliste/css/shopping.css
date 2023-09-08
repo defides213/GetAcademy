@@ -1,0 +1,49 @@
+.shoppingBox {
+    width: 40%;
+}
+
+.shoppingCart {
+    width: 100%;
+}
+
+.innerShoppingCart {
+    width: 2px;
+}
+
+.wares {
+    width: 100%;
+}
+
+.shoppingList {
+    width: 30%;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+input {
+    width: 60%;
+}
+
+.images {
+    display: none;
+}
+
+button {
+    border: inherit;
+    background-color: rgb(75, 75, 75);
+    transition: color 0.4s;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    padding-bottom: 0.25rem;
+    z-index: 1;
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(187, 187, 187);
+}
