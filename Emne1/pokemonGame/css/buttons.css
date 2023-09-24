@@ -1,0 +1,36 @@
+button {
+    margin: 10px;
+    position: relative;
+    z-index: 2;
+    border: 1px solid rgb(255, 163, 43);
+    background-color: inherit;
+    color: white;
+    font-size: large;
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+button:active {
+    top: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+
+.bagButtons {
+    color: white;
+    font-size: small;
+    width: 140px;
+}
+
+.absoluteButton {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.322);
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

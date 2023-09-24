@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashlight Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ids.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+
+    <div id="overlayW" class="textaligncenter">
+        <h1>Victory</h1>
+        <p>Congrats. you won.</p>
+        <p>you found all the pages.</p>
+        <p>go eat a snack.</p>
+        <button onclick="restartGame()">Restart</button>
+    </div>
+
+    <div class="textaligncenter">
+        <h2>Find The Pages</h2>
+        <p>Hover Over a spot and the pages will appear</p>
+        <p>Get to 8 pages and win</p>
+    </div>
+    <div class="wrapper center border" id="gameboard">
+        <div id="pagesFound">📜Pages Found:</div>
+        <div id="flashlight" class="flashlightlight"></div>
+        <div id="overlay"></div>
+        <img src="" id="backgroundImg">
+        <div id="page" onclick="clickPage()">d</div>
+    </div>
+
+</body>
+</html>

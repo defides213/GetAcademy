@@ -1,0 +1,67 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(37, 35, 46);
+    color: rgb(255, 163, 43);
+    height: 100%;
+}
+
+hr {
+    border: 1px solid rgb(255, 163, 43);
+    margin-top: 50px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.rel {
+    position: relative;
+}
+
+.border {
+    border: solid 2px rgb(23, 22, 29);
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+.wrapper {
+    width: 50%;
+    display: table;
+    margin: 0 auto;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.box {
+    border: solid 1px rgb(255, 163, 43);
+    height: fit-content;
+    width: 170px;
+    background-color: rgb(37, 35, 46);
+}
+
+.margin {
+    margin: 20px;
+}

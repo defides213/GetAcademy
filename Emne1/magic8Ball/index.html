@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cosmetics.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    
+    <div class="wrapper flex center">
+        <div class="title textaligncenter">
+            <h1>The Magic 8 Ball</h1>
+            <hr>
+            <p>Ask the Ball a question and get an anwer back</p>
+            
+        </div>
+        <div class="wrapper">
+            <div class="theBallBox center flex padding">
+                <div class="theBall center flex">
+                    <div class="theAnswerBox center">
+                        <span id="theAnswer"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="textBox center flex">
+                <input type="text" placeholder="Write your question here" id="inputQuestion" onkeydown="if(event.keyCode === 13)answerRandom()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

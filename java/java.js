@@ -25,15 +25,15 @@ function emne1() {
         <a href="Emne1/oracle/index.html"><button class="emnebuttons">Orakelet</button></a>
         <a href="Emne1/Handleliste/index.html"><button class="emnebuttons">Handleliste</button></a>
         <a href="Emne1/Morsecode/index.html"><button class="emnebuttons">Morsekode Oversetter</button></a>
+        <a href="Emne1/pokemonCatcher/index.html"><button class="emnebuttons">Pokemon Catcher</button></a>
+        <a href="Emne1/magic8Ball/index.html"><button class="emnebuttons">Magic 8 Ball</button></a>
+        <a href="Emne1/simonSays/index.html"><button class="emnebuttons">Simon Says</button></a>
+        <a href="Emne1/debugThis/index.html"><button class="emnebuttons">Debug This</button></a>
+        <a href="Emne1/pokemonGame/index.html"><button class="emnebuttons">Pokemon</button></a>
+        <a href="Emne1/NorwegianFlag/index.html"><button class="emnebuttons">Det Norske Flagg</button></a>
         <p>-Unfinished Projects-</p>
-        <a href="Emne1/"><button class="emnebuttons">Pokemon Catcher</button></a>
-        <a href="Emne1/"><button class="emnebuttons">Magic 8 Ball</button></a>
-        <a href="Emne1/"><button class="emnebuttons">Simon Says</button></a>
-        <a href="Emne1/"><button class="emnebuttons">Pokemon</button></a>
         <a href="Emne1/"><button class="emnebuttons">Tampen Brenner</button></a>
-        <a href="Emne1/"><button class="emnebuttons">Det Norske Flagg</button></a>
         <a href="Emne1/"><button class="emnebuttons">Sjakkbrett</button></a>
-        <a href="Emne1/"><button class="emnebuttons">Debug This</button></a>
     `;
 }
 function emne2() {

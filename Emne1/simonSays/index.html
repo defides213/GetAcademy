@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="overlayBox" id="overlay"></div>
+
+    <div class="wrapper">
+        <div class="simonBox  textaligncenter">
+            <div id="simonSays">
+                <h1>Simon Says Game</h1>
+                <p id="simonSaysQuote"></p>
+                <hr>
+            </div>
+        </div>
+        <div class="flex center padding">
+            <div class="margin">
+                <button id="red" class="padding buttons" onclick="checkCorrect(0)"></button>
+                <button id="green" class="padding buttons" onclick="checkCorrect(1)"></button>
+                <button id="blue" class="padding buttons" onclick="checkCorrect(2)"></button>
+                <button id="yellow" class="padding buttons" onclick="checkCorrect(3)"></button>
+            </div>
+        </div>
+        <div>
+            <h4>Points: <span id="pointsNumber">0</span></h4>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: 'Abel', sans-serif !important;
+    background-color: rgb(37, 35, 46);
+    color: rgb(255, 163, 43);
+    height: 100%;
+}
+
+hr {
+    border: 1px solid rgb(255, 163, 43);
+    margin-top: 50px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.border {
+    border: solid 2px rgb(23, 22, 29);
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+.wrapper {
+    width: 50%;
+    display: table;
+    margin: 0 auto;
+    background-color: rgb(37, 35, 46);
+}
+
+.padding {
+    padding: 10px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.box {
+    border: solid 1px rgb(255, 163, 43);
+    height: 140px;
+}
+
+.margin {
+    margin: 20px;
+}

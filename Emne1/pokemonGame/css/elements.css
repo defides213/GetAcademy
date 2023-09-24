@@ -1,0 +1,122 @@
+#background {
+    padding: 10px;
+    margin: 10px;
+}
+
+map {
+    cursor: pointer;
+    display: inline;
+}
+
+area {
+    cursor: pointer;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.452);
+    top: 72%;
+    left: 26%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+progress {
+    color: red;
+    border: green;
+}
+
+.postitionAbso {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.innerBagIcons {
+    width: 30px;
+    height: 30px;
+    transform: scaleX(-1);
+    object-fit: contain;
+    justify-content: flex-end;
+}
+
+.caughtgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#inventory {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.322);
+    transform: translate(-50%,-50%);
+}
+
+#bagScreen {
+    display: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.322);
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#bagIcon {
+    width: 80px;
+    height: 50px;
+}
+
+#background {
+    overflow: hidden;
+    border: solid 2px rgb(255, 163, 43);
+}
+
+#imgGif {
+    width: fit-content;
+    height: 160px; 
+    /* width: 130px;
+    height: 110px; */
+}
+
+.interactionBoxButtons {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.interactionBox {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    text-shadow: 1px 2px 4px rgb(255, 163, 43);
+    right: 20px;
+    bottom: 20px;
+    background-color: rgb(37, 35, 46);
+    display: grid;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+    grid-template-columns: repeat(2, 100px);
+}
+
+.catchPkmn {
+
+}
+
+.fightItems {
+
+}
+
+.runOrStay {
+
+}

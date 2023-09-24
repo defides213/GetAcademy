@@ -1,0 +1,62 @@
+.statusBox {
+    background-color: rgb(37, 35, 46);
+    border-radius: 7%;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+    width: 170px;
+    height: 45px;
+    padding: 10px;
+    position: relative;
+}
+
+.enemyImg {
+    position: absolute;
+    top: 76px;
+    right: 156px;
+    z-index: 3;
+}
+
+.userImg {
+    position: absolute;
+    bottom: 100px;
+    left: 146px;
+}
+
+
+.enemyBox {
+    position: absolute;
+    top: 50px;
+    right: 16px;
+}
+
+.userBox {
+    z-index: 3;
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+}
+
+.pkmnName {
+    text-shadow: 2px 2px 6px;
+    position: absolute;
+    top: 6px;
+}
+
+.pkmnLevel {
+    text-shadow: 2px 2px 6px;
+    position: absolute;
+    top: 6px;
+    right: 40px;
+}
+
+.progressBarFight {
+    position: absolute;
+    top: 26px;
+}
+
+.currentHpNum {
+    text-shadow: 2px 2px 6px;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}

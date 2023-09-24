@@ -1,0 +1,41 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(37, 35, 46);
+    color: rgb(255, 163, 43);
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+#danflag {
+    margin: 10px;
+    background-color: white;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(22, 20px);
+    grid-template-rows: repeat(16, 20px);
+}
+
+#norflag {
+    margin: 10px;
+    background-color: white;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(22, 20px);
+    grid-template-rows: repeat(16, 20px);
+}
+
+.red {
+    background-color: #BA0C2F;
+}
+
+.blue {
+    background-color: #00205B;
+}

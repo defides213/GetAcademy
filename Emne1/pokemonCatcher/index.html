@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Catcher</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/ids.css">
+    <link rel="stylesheet" href="css/locations.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/objects.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <div class="flex center">
+            <h1>Catch Pokemon</h1>
+        </div>
+        <div id="yourPokemonBag" class="flex center padding margin">
+            
+        </div>
+        <div id="randomEncounter"></div>
+        <div class="flex center">
+            <button id="inventory" onclick="yourPokemonBag()" >Your Pokemon</button>
+            <button id="randomEncounterButton" onclick="randomEncounterPokemon()">Random Encounter</button>
+        </div>
+    </div>
+    <audio src="sound/catchsound.mp3" id="audio"></audio>
+</body>
+
+</html>
+
+
+

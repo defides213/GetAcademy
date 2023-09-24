@@ -1,0 +1,22 @@
+button {
+    background-color: inherit;
+    border: 1px solid rgb(255, 163, 43);
+    color: white;
+    position: relative;
+    z-index: 1;
+    width: 90px;
+    height: 25px;
+    padding: 3px;
+    transition: 0.2s;
+}
+
+button:active {
+    top: 1px;
+}
+
+button:hover {
+    transition: 0.2s;
+    background-color: rgb(37, 35, 46);
+    color: gray;
+    border: 1px solid rgb(216, 139, 37);
+}
