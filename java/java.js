@@ -31,8 +31,8 @@ function emne1() {
         <a href="Emne1/debugThis/index.html"><button class="emnebuttons">Debug This</button></a>
         <a href="Emne1/pokemonGame/index.html"><button class="emnebuttons">Pokemon</button></a>
         <a href="Emne1/NorwegianFlag/index.html"><button class="emnebuttons">Det Norske Flagg</button></a>
+        <a href="Emne1/mousemovement/index.html"><button class="emnebuttons">Tampen Brenner</button></a>
         <p>-Unfinished Projects-</p>
-        <a href="Emne1/"><button class="emnebuttons">Tampen Brenner</button></a>
         <a href="Emne1/"><button class="emnebuttons">Sjakkbrett</button></a>
     `;
 }
