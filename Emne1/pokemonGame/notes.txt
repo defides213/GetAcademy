@@ -1,0 +1,31 @@
+
+
+Pokemon Game notes.
+
+have yet to do:
+-- battleareana
+-- multiple choice opponants.
+-- feinting in combat changed to a different pokemon of trainers choice
+-- multiple attacks?
+-- pokeball images 
+-- pokeball choices 
+-- encounter animation
+-- random factor for catching pokemon
+-- during battle // can switch pokemon
+
+
+-- make shiny pokmeon work properly 
+-- make random levels 
+
+Possibly in the future:
+-- Moveable character
+-- Movable canvas
+-- Working pokedex
+-- Implement items
+-- backend information
+
+Completed:
+-- sound for encountering a pokemon
+-- sound for catching a pokemon
+-- Death sound for fainted pokemon
+-- make attack work
