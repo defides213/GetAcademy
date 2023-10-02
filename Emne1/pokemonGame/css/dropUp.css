@@ -1,0 +1,30 @@
+.dropUp {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    margin-top: -85px;
+    margin-left: -35px;
+    background-color: rgb(37, 35, 46);
+    border: 1px solid rgb(255, 163, 43);
+    min-width: 130px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.dropUp:hover .dropdownContent {
+    display: block;
+}
+
+.ballsImg {
+    width: 35px;
+    height: 35px;
+}
+
+.ballsImg:hover {
+    width: 45px;
+    height: 45px;
+}

@@ -1,0 +1,13 @@
+#speechbubble {
+    display: none;
+    border: solid 1px rgb(255, 163, 43);
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(133, 133, 133);
+    position: absolute;
+    color: white;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

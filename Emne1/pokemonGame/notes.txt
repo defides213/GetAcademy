@@ -5,17 +5,10 @@ Pokemon Game notes.
 have yet to do:
 -- battleareana
 -- multiple choice opponants.
--- feinting in combat changed to a different pokemon of trainers choice
--- multiple attacks?
--- pokeball images 
--- pokeball choices 
--- encounter animation
--- random factor for catching pokemon
--- during battle // can switch pokemon
+-- not allowed to click the same pokemon in bag
 
 
--- make shiny pokmeon work properly 
--- make random levels 
+
 
 Possibly in the future:
 -- Moveable character
@@ -23,9 +16,18 @@ Possibly in the future:
 -- Working pokedex
 -- Implement items
 -- backend information
+-- multiple attacks?
+-- encounter animation
 
 Completed:
 -- sound for encountering a pokemon
 -- sound for catching a pokemon
 -- Death sound for fainted pokemon
 -- make attack work
+-- make shiny pokmeon work properly 
+-- make random levels 
+-- during battle // can switch pokemon
+-- random factor for catching pokemon
+-- pokeball images 
+-- pokeball choices 
+-- feinting in combat changed to a different pokemon of trainers choice

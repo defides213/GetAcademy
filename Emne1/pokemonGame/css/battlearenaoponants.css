@@ -1,0 +1,25 @@
+.battleArenachoice {
+position: absolute;
+width: 500px;
+height: 400px;
+top: 43%;
+left: 50%;
+padding: 10px;
+transform: translate(-50%,-50%);
+border: 1px solid rgb(255, 163, 43);
+background-color: rgb(37, 35, 46);
+}
+
+.battletitle {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.chooseOpponent {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -3,6 +3,8 @@ const gamebackground = document.getElementById("gameBackground");
 
 
 function startGame() {
+    document.getElementById("startertext").style.display = "none";
+    bubble.style.display = "none";
     document.getElementById("audio").pause();
     gamebackground.classList.remove("rel");
     document.getElementById("start").style.display = "none";

@@ -5,3 +5,46 @@
 #Bug {
     background-color: rgb(118, 167, 5);
 }
+
+#Ghost {
+    background-color: rgb(78, 10, 99);
+}
+#Dark {
+    background-color: rgb(49, 22, 9);
+}
+#Water {
+    background-color: rgb(5, 0, 82);
+}
+#Fire {
+    background-color: rgb(150, 42, 0);
+}
+#Fairy {
+    background-color: rgb(187, 13, 100);
+}
+#Flying {
+    background-color: rgb(22, 151, 184);
+}
+
+#Grass {
+    background-color: rgb(24, 167, 5);
+}
+
+#Poison {
+    background-color: rgb(126, 75, 150);
+}
+
+#Normal {
+    background-color: rgb(175, 175, 175);
+}
+
+#Electric {
+    background-color: rgb(198, 201, 15);
+}
+
+#Ground {
+    background-color: rgb(172, 161, 104);
+}
+
+#Dragon {
+    background-color: rgb(27, 9, 109);
+}

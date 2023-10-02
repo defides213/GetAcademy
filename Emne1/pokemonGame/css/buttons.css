@@ -34,3 +34,15 @@ button:hover {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+/* 
+button.yourMove {   
+    padding: 10px;
+    text-transform: none;
+    border: none;
+    background-color: inherit;
+    color: white;
+    font-size: medium;
+    width: 110px;
+    height: fit-content;
+    transition: 0.2s;
+} */

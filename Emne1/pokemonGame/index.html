@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/elements.css">
     <link rel="stylesheet" href="css/movetypes.css">
+    <link rel="stylesheet" href="css/speechbubbles.css">
+    <link rel="stylesheet" href="css/dropUp.css">
     <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="stylesheet" href="css/battlearenaoponants.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
@@ -17,9 +20,13 @@
     <script defer src="js/pkmn.js"></script>
     <script defer src="js/encounter.js"></script>
     <script defer src="js/userbag.js"></script>
+    <script defer src="js/speechbubbles.js"></script>
+    <script defer src="js/attacks.js"></script>
+    <script defer src="js/switching.js"></script>
+    <script defer src="js/catching.js"></script>
+    <script defer src="js/battleArena.js"></script>
 </head>
 <body>
-    
     <div class="wrapper">
         <div class="flex center">
             <div class="textaligncenter">
@@ -39,12 +46,32 @@
         <div class="flex center">
             <button id="start" class="" onclick="startGame()">Start</button>
         </div>
-        <div class="">
+        <div id="startertext">
             <p>There currently is no player movement or collision.</p>
             <p>That will be implemented at a later date.</p>
         </div>
+    </div>
+    <div class="textaligncenter" id="speechbubble">
+        <p>. . .</p>
     </div>
     <audio src="sound/catchsound.mp3" id="audio"></audio>
 </body>
 </html>
 
+
+<div class="battleArenachoice" id="battlechoicedisplay">
+    <div class="battletitle">
+        <span>Only 3 of the 6 Pokemon will show here</span>
+        <div class="chooseOpponent">
+            <div id="oponant1">Jeffery
+                <div><i class="fa-solid fa-user"></i></div>
+            </div>
+            <div id="oponant2">Santa Claus
+                <div><i class="fa-solid fa-user"></i></div>
+            </div>
+            <div id="oponant3">Greg
+                <div><i class="fa-solid fa-user"></i></div>
+            </div>
+        </div>
+    </div>
+</div>

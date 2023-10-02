@@ -6,7 +6,7 @@ function openBag() {
         document.getElementById("bagScreen").style.display = "block";
         document.getElementById("bagScreen").innerHTML = `
             <button id="heldPokemon" class="bagButtons" onclick="storedPokemonBag()">Held Pokemon</button>
-            <button id="BattleMode" class="bagButtons">battle Mode</button>
+            <button id="BattleMode" class="bagButtons" onclick="battleArenaEntrance()">battle Mode</button>
             <button id="heldPokemon" class="bagButtons" onclick="alertMe()">Pokedex</button>
             <button id="BattleMode" class="bagButtons" onclick="alertMe()">Items</button>
         `;
