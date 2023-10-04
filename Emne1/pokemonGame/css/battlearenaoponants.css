@@ -23,3 +23,8 @@ background-color: rgb(37, 35, 46);
     text-align: center;
     text-transform: uppercase;
 }
+
+.opponentgifs {
+    height: 80px!important;
+    width: fit-content!important;
+}

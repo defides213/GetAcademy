@@ -310,3 +310,16 @@ const battlePokemon = [
         },
     },
 ]
+
+
+let jeffery = [
+
+]
+
+let santaClaus = [
+    
+]
+
+let greg = [
+    
+]
