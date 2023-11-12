@@ -1,0 +1,13 @@
+@keyframes titlefade {
+   from {
+    opacity: 0;
+   }
+   to {
+    opacity: 100%;
+   } 
+}
+
+.titlefade {
+    animation-duration: 2s;
+    animation-name: titlefade;
+}

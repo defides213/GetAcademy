@@ -1,0 +1,41 @@
+.topbar {
+    padding: 10px;
+    height: 20px;
+    background-color: rgb(27, 26, 34);
+}
+
+.topIcons {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: large;
+}
+
+
+#topX {
+    height: fit-content;
+    width: fit-content;
+    transition: 0.2s;
+}
+
+
+#topX:hover {
+    color: red;
+    transition: 0.2s;
+}
+
+#topSquare {
+    height: fit-content;
+    width: fit-content;
+    transition: 0.2s;
+}
+
+#topMinus {
+    height: fit-content;
+    width: fit-content;
+    transition: 0.2s;
+}
+
+#topSquare:hover, #topMinus:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}

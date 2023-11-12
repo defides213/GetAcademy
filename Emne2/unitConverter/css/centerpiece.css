@@ -1,0 +1,68 @@
+/* -- title -- */
+
+.title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    text-transform: uppercase;
+}
+
+
+
+/* -- under title -- */
+
+.choices {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.generalselect {
+    width: 97%;
+}
+
+.equals {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: xx-large;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::placeholder {
+    color: #e76f51;
+}
+input:hover::placeholder {
+    color: #393544;
+    transition: 0.1s;
+}
+div input.generalselect:hover {
+    color: #d1654a;
+    transition: 0.1s;
+    background-color: #393544;
+}
+input.generalselect {
+    color: #e76f51;
+    text-align: center;
+    transition: 0.1s;
+    height: 50px;
+    border: none;
+    font-size: xx-large;
+    background-color: #2e2b38;
+}
+
+select.generalselect {
+    width: 100%;
+    font-size: large;
+}
+
+.firstSelect {
+    width: 150px;
+}
+
+.secondSelect {
+    width: 150px;
+}

@@ -71,3 +71,19 @@ function missBall() {
     
     
 }
+
+function opponentStart() {
+    bubble.innerHTML = `<p>${opponentChosen[battleModePokemon].pokemonName} ??</p>
+
+    `;
+}
+
+function opponentattack() {
+    bubble.innerHTML = `<p>${opponentChosen[battleModePokemon].pokemonName} 
+    used ${opponentChosen[battleModePokemon].moves.moveID}</p>
+    <p>it did ${opponentChosen[battleModePokemon].moves.dmg} dmg</p>
+    `;
+    setTimeout(function() {
+        bubble.innerHTML = `. . .`;
+    }, 2000);
+}

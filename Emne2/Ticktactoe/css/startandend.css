@@ -1,0 +1,33 @@
+button.start {
+    text-transform: uppercase;
+    width: 100px;
+    height: 35px;
+    background-color: inherit;
+    border: inherit;
+    color: inherit;
+    transition: 0.2s;
+}
+
+button.start:active {
+    top: 2px;
+}
+
+button.start:hover {
+    color: black;
+    background-color: aqua;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button.choose {
+    background-color: inherit;
+    color: inherit;
+    border: 2px solid #284b63;
+    width: 200px;
+    transition: 0.2s;
+}
+
+button.choose:hover {
+    color: rgb(64, 145, 145);
+    background-color: rgba(0, 255, 255, 0.034);
+}

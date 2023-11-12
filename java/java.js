@@ -38,7 +38,20 @@ function emne1() {
 function emne2() {
     document.getElementById("emne3").innerHTML = ``;
     document.getElementById("emne2").innerHTML = `
+    <a href="Emne2/Calculator/index.html"><button class="emnebuttons">Calculator</button></a>
     <p>-Unfinished Projects-</p>
+    <a href="Emne1/"><button class="emnebuttons">Tick Tac Toe</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Nonogram</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Unit converter</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Weather Program</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Stopwatch</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Idle game</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Chess Game</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Slideshow</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Image Manipulation</button></a>
+    <a href="Emne1/"><button class="emnebuttons">Tegne Program</button></a>
+    <a href="Emne1/"><button class="emnebuttons">To-do Listings</button></a>
+    <a href="Emne1/"><button class="emnebuttons">RegEx</button></a>
     `;
     document.getElementById("emne1").innerHTML = ``;
 }

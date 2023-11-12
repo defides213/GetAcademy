@@ -1,0 +1,49 @@
+.plate {
+    width: 170px;
+    height: 170px;
+}
+
+div.game {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gamebox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+}
+
+.done {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.done:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.done:hover div {
+    display: none;
+}
+
+.done:hover:before {
+    content: "Click this to go back to start";
+    transition: 0.2s;
+}
+
+#gameboard {
+    display: none;
+}
+
+#overlay {
+    display: none;
+}
+
+.iconsize {
+    font-size: 10rem;
+}

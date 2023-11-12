@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topbar.css">
+    <link rel="stylesheet" href="css/middleSection.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    
+    <div class="wrapper border">
+        <div class="topbar grid">
+            <div class="textalignleft"><p>Calculator</p></div>
+            <div class="textalignright">
+                <i class="topIcons fa-solid fa-minus" id="topMinus"></i>
+                <i class="topIcons fa-regular fa-square" id="topSquare"></i>
+                <i class="topIcons fa-solid fa-x"  id="topX"></i>
+            </div>
+        </div>
+        <div class="middleSection">
+            <h3>Standard</h3>
+            <div class="textalignright">
+                <div class="padding"><input type="text" value="" disabled id="calculation"></div>
+                <div class="padding"><input type="number" value="0" disabled id="outputcalculation"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="gridbuttons">
+            <button onclick="specialCharacters('%')">%</button>
+            <button onclick="clearmonkey('ce')">CE</button>
+            <button onclick="clearmonkey('c')">C</button>
+            <button onclick="backspace()"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="specialCharacters('1/x')">1/x</button>
+            <button onclick="specialCharacters('x2')">x²</button>
+            <button onclick="specialCharacters('√')">√</button>
+            <button onclick="specialCharacters('/')">/</button>
+            <button class="innerbuttons" onclick="output(7)">7</button>
+            <button class="innerbuttons" onclick="output(8)">8</button>
+            <button class="innerbuttons" onclick="output(9)">9</button>
+            <button onclick="specialCharacters('*')">*</button>
+            <button class="innerbuttons" onclick="output(4)">4</button>
+            <button class="innerbuttons" onclick="output(5)">5</button>
+            <button class="innerbuttons" onclick="output(6)">6</button>
+            <button onclick="specialCharacters('-')">-</button>
+            <button class="innerbuttons" onclick="output(1)">1</button>
+            <button class="innerbuttons" onclick="output(2)">2</button>
+            <button class="innerbuttons" onclick="output(3)">3</button>
+            <button onclick="specialCharacters('+')">+</button>
+            <button class="innerbuttons" onclick="specialCharacters('+/-')">+/-</button>
+            <button class="innerbuttons" onclick="output(0)">0</button>
+            <button class="innerbuttons" onclick="specialCharacters(',')">,</button>
+            <button class="equals" onclick="specialCharacters('=')">=</button>
+            
+
+        </div>
+    </div>
+
+</body>
+</html>

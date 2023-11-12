@@ -1,0 +1,51 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #25232e;
+    color: #64B6AC;
+    height: 100%;
+}
+
+hr {
+    border: 1px solid #1b4332;
+}
+
+.border {
+    border: 2px solid #284b63;
+}
+
+.textaligncenter {
+    text-align: center;
+}
+
+.transform {
+    transform: translate(-50%,-50%);
+}
+
+.wrapper {
+    overflow: hidden;
+    height: 700px;
+    width: 1280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

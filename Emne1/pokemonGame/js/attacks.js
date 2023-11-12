@@ -11,10 +11,15 @@ function attack() {
         document.getElementById("audio").src = "sound/Cri.m4a";
         document.getElementById("audio").volume = 0.1;
         document.getElementById("audio").play();
-        setTimeout( function() {
-            startGame()
-            encounterPokemon[randomIndex].curHP = encounterPokemon[randomIndex].maxHP;
-        },1800)
+        if(!battleModeOn) {
+            setTimeout( function() {
+                startGame()
+                encounterPokemon[randomIndex].curHP = encounterPokemon[randomIndex].maxHP;
+            },1800)
+        }
+        if(battleModeOn === true) {
+            battleModePokemon++;
+        }
     }
     enemyBar.value = encounterPokemon[randomIndex].curHP;
     enemyNumber.innerHTML = `${encounterPokemon[randomIndex].curHP} / ${encounterPokemon[randomIndex].maxHP}`;
@@ -29,7 +34,12 @@ function attack() {
 }
 let faintswitch = false;
 function enemyAttack() {
-    enemySpeechbubbles();
+    if(!battleModeOn) {
+        enemySpeechbubbles();
+    }
+    if(battleModeOn === true) {
+        opponentspeechattack();
+    }
     faintswitch = false;
     let userBar = document.getElementById("userBar");
     let userNumber = document.getElementById("userNumberBar");

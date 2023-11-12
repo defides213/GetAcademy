@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick Tac Toe</title>
+    <link rel="stylesheet" href="css/startandend.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="@sweetalert2/theme-dark/dark.css">
+    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div class="textaligncenter" id="introduction">
+        <h1>Welcome to Tick Tac Toe</h1>
+        <p>Click start to begin against an AI</p>
+        <button class="start border" onclick="start()">Start</button>
+    </div>
+
+    <div id="overlay" class="textaligncenter">
+        <div class="flex center"><p>Choose Your Type</p></div>
+        <div class="chooseType flex center">
+            <button class="choose" onclick="gamework('xType')"><i class="iconsize fa-solid fa-x"></i></button>
+            <button class="choose" onclick="gamework('oType')"><i class="iconsize fa-regular fa-circle"></i></button>
+        </div>
+    </div>
+
+    <div class="wrapper transform border" id="gameboard">
+        <div class="flex center gamebox transform">
+            <div class="game textaligncenter">
+                <h2>Player Points:</h2>
+                <h2 id="userPoints">0</h2>
+            </div>
+            <div class="grid center game" id="griding">
+                <div id="num0" class="border plate gridItem" onclick="placement(this, 0)"></div>
+                <div id="num1" class="border plate gridItem" onclick="placement(this, 1)"></div>
+                <div id="num2" class="border plate gridItem" onclick="placement(this, 2)"></div>
+                <div id="num3" class="border plate gridItem" onclick="placement(this, 3)"></div>
+                <div id="num4" class="border plate gridItem" onclick="placement(this, 4)"></div>
+                <div id="num5" class="border plate gridItem" onclick="placement(this, 5)"></div>
+                <div id="num6" class="border plate gridItem" onclick="placement(this, 6)"></div>
+                <div id="num7" class="border plate gridItem" onclick="placement(this, 7)"></div>
+                <div id="num8" class="border plate gridItem" onclick="placement(this, 8)"></div>
+            </div>
+            <div class="game textaligncenter">
+                <h2>Computer Points:</h2>
+                <h2 id="compPoints">0</h2>
+            </div>
+        </div>       
+        <div class="done transform" onclick="areyousure()">
+            <div>Done Playing?</div>
+        </div>
+    </div>
+</body>
+</html>

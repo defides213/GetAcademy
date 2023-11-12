@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dropdown.css">
+    <link rel="stylesheet" href="css/centerpiece.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="/awasomefont/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="@sweetalert2/theme-dark/dark.css">
+    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/ids.js"></script>
+</head>
+
+<body>
+    <div class="title textaligncenter transform">
+        <h1 class="titlefade">Unit converter</h1>
+    </div>
+    <div class="wrapper border transform">
+        <div class="flex center">
+            <label for=""></label>
+            <select class="fontuni border dropDown position" name="" id="" onchange="dropdown(this.value)">
+                <option class="fontuni dropDown" value="Area">Area</option>
+                <option class="fontuni dropDown" value="Length">Length</option>
+                <option class="fontuni dropDown" value="Mass">Mass</option>
+                <option class="fontuni dropDown" value="Time">Time</option>
+            </select>
+        </div>
+        <div class="transform flex choices textaligncenter">
+            <div class="firstSelect border">
+                <div class="">
+                    <input type="number" class="generalselect" placeholder="0" oninput="lengthchoice(this.value)">
+                </div>
+                <div id="lengthdropdown1">
+                    <select class="fontuni border dropDown generalselect" name="" id="money">
+                        <option class="fontuni dropDown" value="Meter">Meter</option>
+                        <option class="fontuni dropDown" value="Decimeter">Decimeter</option>
+                        <option class="fontuni dropDown" value="Centimeter">Centimeter</option>
+                        <option class="fontuni dropDown" value="Milimeter">Milimeter</option>
+                    </select>
+                </div>
+                <div id="areadropdown1">
+                    <select class="fontuni border dropDown generalselect" name="" id="">
+                        <option class="fontuni dropDown" value="">thing</option>
+                        <option class="fontuni dropDown" value="">thing</option>
+                        <option class="fontuni dropDown" value="">thing</option>
+                        <option class="fontuni dropDown" value="">thing</option>
+                    </select>
+                </div>
+            </div>
+            <div class="equals">=</div>
+            <div class="secondSelect border">
+                <div class="">
+                    <input type="number" class="generalselect" placeholder="0" disabled id="output">
+                </div>
+                <div id="lengthdropdown2">
+                    <select class="fontuni border dropDown generalselect" name="" id="monkey">
+                        <option class="fontuni dropDown" value="Meter">Meter</option>
+                        <option class="fontuni dropDown" value="Decimeter">Decimeter</option>
+                        <option class="fontuni dropDown" value="Centimeter">Centimeter</option>
+                        <option class="fontuni dropDown" value="Milimeter">Milimeter</option>
+                    </select>
+                </div>
+                <div id="areadropdown2">
+                    <select class="fontuni border dropDown generalselect" name="" id="">
+                        <option class="fontuni dropDown" value="">thing</option>
+                        <option class="fontuni dropDown" value="">thing</option>
+                        <option class="fontuni dropDown" value="">thing</option>
+                        <option class="fontuni dropDown" value="">thing</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

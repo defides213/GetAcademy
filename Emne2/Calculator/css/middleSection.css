@@ -1,0 +1,17 @@
+#calculation, #outputcalculation {
+    background-color: inherit;
+    border: inherit;
+}
+
+#outputcalculation {
+    width: 100%;
+    color: white;
+    font-size: 200%;
+    direction: rtl;
+}
+
+#calculation {
+    width: 100%;
+    text-align: right;
+}
+

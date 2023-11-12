@@ -1,0 +1,30 @@
+.fontuni {
+    font-family: 'Abel', sans-serif; 
+    font-size: large;
+}
+
+.position {
+    position: absolute;
+    top: 10%;
+    width: 35%;
+}
+
+select.dropDown {
+    color: #e76f51;
+    background-color: #264653;
+}
+
+option.dropDown {
+    border: inherit;
+    text-align: center;
+    background-color: #264653;
+    color: #e76f51;
+}
+
+#lengthdropdown1, #lengthdropdown2 {
+    display: none;
+}
+
+#areadropdown1, #areadropdown2 {
+    display: block;
+}

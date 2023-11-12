@@ -5,6 +5,7 @@ let runAvailable = false;
 
 
 function encounterGame() {
+    battleModeOn = false;
     attackavailable = true;
     runAvailable = true;
     catchAvailable = true;

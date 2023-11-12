@@ -1,0 +1,36 @@
+button {
+    color: white;
+    width: 90px;
+    height: 70px;
+    border-radius: 10%;
+    padding: 1px;
+    margin: 3px;
+    background-color: rgb(27, 26, 34);
+    border: inherit;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: rgb(45, 43, 54);
+    transition: 0.2s;
+}
+
+.equals {
+    background-color: hotpink;
+    transition: 0.2s;
+}
+
+.equals:hover {
+    background-color: rgb(194, 78, 136);
+    transition: 0.2s;
+}
+
+.innerbuttons {
+    background-color: rgb(45, 43, 54);
+    transition: 0.2s;
+}
+
+.innerbuttons:hover {
+    background-color: rgb(27, 26, 34);
+    transition: 0.2s;
+}
